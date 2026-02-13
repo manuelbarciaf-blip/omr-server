@@ -17,7 +17,7 @@ def leer_omr():
     img = Image.open(file.stream).convert("L")
 
     ANCHO = 1000
-    ALTO = 1401400
+    ALTO = 1400
     img = img.resize((ANCHO, ALTO))
     img_np = np.array(img)
 
